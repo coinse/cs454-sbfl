@@ -1,0 +1,21 @@
+{
+    "bug_id": "Time-12",
+    "failing_tests": [
+        "org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero1",
+        "org.joda.time.TestLocalDateTime_Constructors#testFactory_fromDateFields_beforeYearZero3",
+        "org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero1",
+        "org.joda.time.TestLocalDateTime_Constructors#testFactory_fromCalendarFields_beforeYearZero3",
+        "org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero1",
+        "org.joda.time.TestLocalDate_Constructors#testFactory_fromDateFields_beforeYearZero3",
+        "org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero1",
+        "org.joda.time.TestLocalDate_Constructors#testFactory_fromCalendarFields_beforeYearZero3"
+    ],
+    "buggy_lines": [
+        "org.joda.time$LocalDate#fromCalendarFields(java.util.Calendar):210",
+        "org.joda.time$LocalDate#fromCalendarFields(java.util.Calendar):211",
+        "org.joda.time$LocalDate#fromDateFields(java.util.Date):244",
+        "org.joda.time$LocalDateTime#fromCalendarFields(java.util.Calendar):199",
+        "org.joda.time$LocalDateTime#fromCalendarFields(java.util.Calendar):200",
+        "org.joda.time$LocalDateTime#fromDateFields(java.util.Date):237"
+    ]
+}

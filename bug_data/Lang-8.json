@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-8",
+    "failing_tests": [
+        "org.apache.commons.lang3.time.FastDatePrinterTest#testCalendarTimezoneRespected",
+        "org.apache.commons.lang3.time.FastDateFormat_PrinterTest#testCalendarTimezoneRespected"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.time$FastDatePrinter$TimeZoneNameRule#FastDatePrinter$TimeZoneNameRule(java.util.TimeZone,java.util.Locale,int):1112",
+        "org.apache.commons.lang3.time$FastDatePrinter$TimeZoneNameRule#appendTo(java.lang.StringBuffer,java.util.Calendar):1134"
+    ]
+}

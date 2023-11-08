@@ -1,0 +1,10 @@
+{
+    "bug_id": "Math-26",
+    "failing_tests": [
+        "org.apache.commons.math3.fraction.FractionTest#testIntegerOverflow"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.fraction$Fraction#Fraction(double,double,int,int):181",
+        "org.apache.commons.math3.fraction$Fraction#Fraction(double,double,int,int):209"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-25",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.fitting.HarmonicFitterTest#testMath844"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.fitting$HarmonicFitter$ParameterGuesser#guessAOmega():326"
+    ]
+}

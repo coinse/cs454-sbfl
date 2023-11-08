@@ -1,0 +1,11 @@
+{
+    "bug_id": "Chart-5",
+    "failing_tests": [
+        "org.jfree.data.xy.junit.XYSeriesTests#testBug1955483"
+    ],
+    "buggy_lines": [
+        "org.jfree.data.xy$XYSeries#addOrUpdate(java.lang.Number,java.lang.Number):546",
+        "org.jfree.data.xy$XYSeries#addOrUpdate(java.lang.Number,java.lang.Number):547",
+        "org.jfree.data.xy$XYSeries#addOrUpdate(java.lang.Number,java.lang.Number):548"
+    ]
+}

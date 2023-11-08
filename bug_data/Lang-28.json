@@ -1,0 +1,10 @@
+{
+    "bug_id": "Lang-28",
+    "failing_tests": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest#testSupplementaryUnescaping"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.text.translate$NumericEntityUnescaper#translate(java.lang.CharSequence,int,java.io.Writer):63",
+        "org.apache.commons.lang3.text.translate$NumericEntityUnescaper#translate(java.lang.CharSequence,int,java.io.Writer):64"
+    ]
+}

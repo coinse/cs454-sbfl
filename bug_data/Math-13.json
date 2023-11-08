@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-13",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.fitting.PolynomialFitterTest#testLargeSample"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.general$AbstractLeastSquaresOptimizer#squareRoot(org.apache.commons.math3.linear.RealMatrix):562"
+    ]
+}

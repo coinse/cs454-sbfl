@@ -1,0 +1,18 @@
+{
+    "bug_id": "Chart-16",
+    "failing_tests": [
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetCategoryIndex",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testSetCategoryKeys",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetSeriesIndex",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetRowCount",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetRowIndex",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetColumnCount",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testGetColumnIndex",
+        "org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests#testCloning2"
+    ],
+    "buggy_lines": [
+        "org.jfree.data.category$DefaultIntervalCategoryDataset#DefaultIntervalCategoryDataset(java.lang.Comparable[],java.lang.Comparable[],java.lang.Number[][],java.lang.Number[][]):207",
+        "org.jfree.data.category$DefaultIntervalCategoryDataset#DefaultIntervalCategoryDataset(java.lang.Comparable[],java.lang.Comparable[],java.lang.Number[][],java.lang.Number[][]):208",
+        "org.jfree.data.category$DefaultIntervalCategoryDataset#setCategoryKeys(java.lang.Comparable[]):338"
+    ]
+}

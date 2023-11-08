@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-38",
+    "failing_tests": [
+        "org.apache.commons.lang3.time.FastDateFormatTest#testLang538"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.time$FastDateFormat#format(java.util.Calendar,java.lang.StringBuffer):872"
+    ]
+}

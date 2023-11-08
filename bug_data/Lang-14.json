@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-14",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testEquals"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$StringUtils#equals(java.lang.CharSequence,java.lang.CharSequence):788"
+    ]
+}

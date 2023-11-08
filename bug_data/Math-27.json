@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-27",
+    "failing_tests": [
+        "org.apache.commons.math3.fraction.FractionTest#testMath835"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.fraction$Fraction#percentageValue():597"
+    ]
+}

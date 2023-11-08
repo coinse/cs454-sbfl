@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-20",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringUtilsTest#testJoin_ArrayChar",
+        "org.apache.commons.lang3.StringUtilsTest#testJoin_Objectarray"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$StringUtils#join(java.lang.Object[],char,int,int):3298",
+        "org.apache.commons.lang3$StringUtils#join(java.lang.Object[],java.lang.String,int,int):3383"
+    ]
+}

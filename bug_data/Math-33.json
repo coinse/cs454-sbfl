@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-33",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest#testMath781"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.linear$SimplexTableau#dropPhase1Objective():338"
+    ]
+}

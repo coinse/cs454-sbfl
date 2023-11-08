@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-36",
+    "failing_tests": [
+        "org.apache.commons.lang3.math.NumberUtilsTest#testCreateNumber",
+        "org.apache.commons.lang3.math.NumberUtilsTest#testIsNumber"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.math$NumberUtils#createNumber(java.lang.String):491",
+        "org.apache.commons.lang3.math$NumberUtils#isNumber(java.lang.String):1388"
+    ]
+}

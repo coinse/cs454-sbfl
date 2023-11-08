@@ -1,0 +1,12 @@
+{
+    "bug_id": "Lang-31",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsAnyStringWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsAnyCharArrayWithSupplementaryChars"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$StringUtils#containsAny(java.lang.CharSequence,char[]):1445",
+        "org.apache.commons.lang3$StringUtils#containsAny(java.lang.CharSequence,char[]):1446",
+        "org.apache.commons.lang3$StringUtils#containsAny(java.lang.CharSequence,char[]):1452"
+    ]
+}

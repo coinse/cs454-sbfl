@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-19",
+    "failing_tests": [
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest#testUnfinishedEntity",
+        "org.apache.commons.lang3.text.translate.NumericEntityUnescaperTest#testOutOfBounds"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.text.translate$NumericEntityUnescaper#translate(java.lang.CharSequence,int,java.io.Writer):40",
+        "org.apache.commons.lang3.text.translate$NumericEntityUnescaper#translate(java.lang.CharSequence,int,java.io.Writer):54"
+    ]
+}

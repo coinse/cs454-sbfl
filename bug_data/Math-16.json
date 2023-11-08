@@ -1,0 +1,12 @@
+{
+    "bug_id": "Math-16",
+    "failing_tests": [
+        "org.apache.commons.math3.util.FastMathTest#testMath905LargePositive",
+        "org.apache.commons.math3.util.FastMathTest#testMath905LargeNegative"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.util$FastMath#cosh(double):395",
+        "org.apache.commons.math3.util$FastMath#cosh(double):397",
+        "org.apache.commons.math3.util$FastMath#cosh(double):399"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-42",
+    "failing_tests": [
+        "org.apache.commons.math.optimization.linear.SimplexSolverTest#testMath713NegativeVariable"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.optimization.linear$SimplexTableau#getSolution():413"
+    ]
+}

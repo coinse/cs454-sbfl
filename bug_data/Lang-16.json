@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-16",
+    "failing_tests": [
+        "org.apache.commons.lang3.math.NumberUtilsTest#testCreateNumber"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.math$NumberUtils#createNumber(java.lang.String):458"
+    ]
+}

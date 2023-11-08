@@ -1,0 +1,9 @@
+{
+    "bug_id": "Chart-17",
+    "failing_tests": [
+        "org.jfree.data.time.junit.TimeSeriesTests#testBug1832432"
+    ],
+    "buggy_lines": [
+        "org.jfree.data.time$TimeSeries#clone():857"
+    ]
+}

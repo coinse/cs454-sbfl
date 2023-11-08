@@ -1,0 +1,27 @@
+{
+    "bug_id": "Lang-30",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsNone_CharArrayWithBadSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsNone_StringWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testIndexOfAny_StringCharArrayWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testIndexOfAny_StringStringWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testIndexOfAnyBut_StringCharArrayWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testIndexOfAnyBut_StringStringWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsNone_CharArrayWithSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsNone_StringWithBadSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsAny_StringCharArrayWithBadSupplementaryChars",
+        "org.apache.commons.lang3.StringUtilsEqualsIndexOfTest#testContainsAny_StringWithBadSupplementaryChars"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$StringUtils#indexOfAny(java.lang.CharSequence,char[]):1376",
+        "org.apache.commons.lang3$StringUtils#indexOfAny(java.lang.CharSequence,char[]):1377",
+        "org.apache.commons.lang3$StringUtils#indexOfAny(java.lang.CharSequence,char[]):1382",
+        "org.apache.commons.lang3$StringUtils#containsAny(java.lang.CharSequence,char[]):1455",
+        "org.apache.commons.lang3$StringUtils#indexOfAnyBut(java.lang.CharSequence,char[]):1533",
+        "org.apache.commons.lang3$StringUtils#indexOfAnyBut(java.lang.CharSequence,char[]):1539",
+        "org.apache.commons.lang3$StringUtils#indexOfAnyBut(java.lang.String,java.lang.String):1576",
+        "org.apache.commons.lang3$StringUtils#containsNone(java.lang.CharSequence,char[]):1678",
+        "org.apache.commons.lang3$StringUtils#containsNone(java.lang.CharSequence,char[]):1679",
+        "org.apache.commons.lang3$StringUtils#containsNone(java.lang.CharSequence,char[]):1685"
+    ]
+}

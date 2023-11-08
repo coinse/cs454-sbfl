@@ -1,0 +1,10 @@
+{
+    "bug_id": "Math-46",
+    "failing_tests": [
+        "org.apache.commons.math.complex.ComplexTest#testAtanI",
+        "org.apache.commons.math.complex.ComplexTest#testDivideZero"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.complex$Complex#divide(org.apache.commons.math.complex.Complex):260"
+    ]
+}

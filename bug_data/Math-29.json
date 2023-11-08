@@ -1,0 +1,15 @@
+{
+    "bug_id": "Math-29",
+    "failing_tests": [
+        "org.apache.commons.math3.linear.SparseRealVectorTest#testEbeDivideMixedTypes",
+        "org.apache.commons.math3.linear.SparseRealVectorTest#testEbeMultiplyMixedTypes",
+        "org.apache.commons.math3.linear.SparseRealVectorTest#testEbeMultiplySameType"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.linear$OpenMapRealVector#ebeDivide(org.apache.commons.math3.linear.RealVector):349",
+        "org.apache.commons.math3.linear$OpenMapRealVector#ebeDivide(org.apache.commons.math3.linear.RealVector):350",
+        "org.apache.commons.math3.linear$OpenMapRealVector#ebeDivide(org.apache.commons.math3.linear.RealVector):351",
+        "org.apache.commons.math3.linear$OpenMapRealVector#ebeDivide(org.apache.commons.math3.linear.RealVector):352",
+        "org.apache.commons.math3.linear$OpenMapRealVector#ebeMultiply(org.apache.commons.math3.linear.RealVector):374"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "bug_id": "Time-10",
+    "failing_tests": [
+        "org.joda.time.TestDays#testFactory_daysBetween_RPartial_MonthDay",
+        "org.joda.time.TestMonths#testFactory_monthsBetween_RPartial_MonthDay"
+    ],
+    "buggy_lines": [
+        "org.joda.time.base$BaseSingleFieldPeriod#between(org.joda.time.ReadablePartial,org.joda.time.ReadablePartial,org.joda.time.ReadablePeriod):104"
+    ]
+}

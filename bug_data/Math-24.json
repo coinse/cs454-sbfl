@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-24",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.univariate.BrentOptimizerTest#testMath855"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.univariate$BrentOptimizer#doOptimize():267"
+    ]
+}

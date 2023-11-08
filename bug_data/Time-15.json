@@ -1,0 +1,9 @@
+{
+    "bug_id": "Time-15",
+    "failing_tests": [
+        "org.joda.time.field.TestFieldUtils#testSafeMultiplyLongInt"
+    ],
+    "buggy_lines": [
+        "org.joda.time.field$FieldUtils#safeMultiply(long,int):138"
+    ]
+}

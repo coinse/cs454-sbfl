@@ -1,0 +1,9 @@
+{
+    "bug_id": "Chart-10",
+    "failing_tests": [
+        "org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests#testGenerateURLFragment"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.imagemap$StandardToolTipTagFragmentGenerator#generateToolTipFragment(java.lang.String):65"
+    ]
+}

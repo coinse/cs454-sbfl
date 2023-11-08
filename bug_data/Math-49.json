@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-49",
+    "failing_tests": [
+        "org.apache.commons.math.linear.SparseRealVectorTest#testConcurrentModification"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.linear$OpenMapRealVector#ebeMultiply(org.apache.commons.math.linear.RealVector):370"
+    ]
+}

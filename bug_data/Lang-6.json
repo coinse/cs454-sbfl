@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-6",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringUtilsTest#testEscapeSurrogatePairs"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.text.translate$CharSequenceTranslator#translate(java.lang.CharSequence,java.io.Writer):95"
+    ]
+}

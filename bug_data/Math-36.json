@@ -1,0 +1,11 @@
+{
+    "bug_id": "Math-36",
+    "failing_tests": [
+        "org.apache.commons.math.fraction.BigFractionTest#testFloatValueForLargeNumeratorAndDenominator",
+        "org.apache.commons.math.fraction.BigFractionTest#testDoubleValueForLargeNumeratorAndDenominator"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.fraction$BigFraction#doubleValue():688",
+        "org.apache.commons.math.fraction$BigFraction#floatValue():735"
+    ]
+}

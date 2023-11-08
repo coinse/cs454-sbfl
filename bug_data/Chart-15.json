@@ -1,0 +1,9 @@
+{
+    "bug_id": "Chart-15",
+    "failing_tests": [
+        "org.jfree.chart.plot.junit.PiePlot3DTests#testDrawWithNullDataset"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.plot$PiePlot#initialise(java.awt.Graphics2D,java.awt.geom.Rectangle2D,org.jfree.chart.plot.PiePlot,java.lang.Integer,org.jfree.chart.plot.PlotRenderingInfo):2051"
+    ]
+}

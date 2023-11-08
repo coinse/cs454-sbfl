@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-41",
+    "failing_tests": [
+        "org.apache.commons.math.stat.descriptive.moment.VarianceTest#testEvaluateArraySegmentWeighted"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.stat.descriptive.moment$Variance#evaluate(double[],double[],double,int,int):520"
+    ]
+}

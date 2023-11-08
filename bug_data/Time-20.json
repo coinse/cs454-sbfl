@@ -1,0 +1,13 @@
+{
+    "bug_id": "Time-20",
+    "failing_tests": [
+        "org.joda.time.format.TestDateTimeFormatterBuilder#test_printParseZoneDawsonCreek",
+        "org.joda.time.TestPeriodType#testForFields4"
+    ],
+    "buggy_lines": [
+        "org.joda.time.format$DateTimeFormatterBuilder$TimeZoneId#parseInto(org.joda.time.format.DateTimeParserBucket,java.lang.String,int):2541",
+        "org.joda.time.format$DateTimeFormatterBuilder$TimeZoneId#parseInto(org.joda.time.format.DateTimeParserBucket,java.lang.String,int):2542",
+        "org.joda.time.format$DateTimeFormatterBuilder$TimeZoneId#parseInto(org.joda.time.format.DateTimeParserBucket,java.lang.String,int):2544",
+        "org.joda.time.format$DateTimeFormatterBuilder$TimeZoneId#parseInto(org.joda.time.format.DateTimeParserBucket,java.lang.String,int):2545"
+    ]
+}

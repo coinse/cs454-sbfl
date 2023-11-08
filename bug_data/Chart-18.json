@@ -1,0 +1,17 @@
+{
+    "bug_id": "Chart-18",
+    "failing_tests": [
+        "org.jfree.data.category.junit.DefaultCategoryDatasetTests#testBug1835955",
+        "org.jfree.data.junit.DefaultKeyedValues2DTests#testRemoveColumnByKey",
+        "org.jfree.data.junit.DefaultKeyedValuesTests#testRemoveValue",
+        "org.jfree.data.junit.DefaultKeyedValuesTests#testGetIndex2"
+    ],
+    "buggy_lines": [
+        "org.jfree.data$DefaultKeyedValues2D#removeColumn(java.lang.Comparable):455",
+        "org.jfree.data$DefaultKeyedValues2D#removeColumn(java.lang.Comparable):456",
+        "org.jfree.data$DefaultKeyedValues2D#removeColumn(java.lang.Comparable):458",
+        "org.jfree.data$DefaultKeyedValues2D#removeColumn(java.lang.Comparable):459",
+        "org.jfree.data$DefaultKeyedValues#removeValue(int):318",
+        "org.jfree.data$DefaultKeyedValues#removeValue(java.lang.Comparable):335"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-20",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizerTest#testMath864"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.direct$CMAESOptimizer$FitnessFunction#repairAndDecode(double[]):921"
+    ]
+}

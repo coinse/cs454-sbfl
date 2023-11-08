@@ -1,0 +1,10 @@
+{
+    "bug_id": "Time-19",
+    "failing_tests": [
+        "org.joda.time.TestPeriodType#testForFields4",
+        "org.joda.time.TestDateTimeZoneCutover#testDateTimeCreation_london"
+    ],
+    "buggy_lines": [
+        "org.joda.time$DateTimeZone#getOffsetFromLocal(long):900"
+    ]
+}

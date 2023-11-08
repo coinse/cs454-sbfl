@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-4",
+    "failing_tests": [
+        "org.apache.commons.lang3.text.translate.LookupTranslatorTest#testLang882"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.text.translate$LookupTranslator#LookupTranslator(java.lang.CharSequence[][]):46",
+        "org.apache.commons.lang3.text.translate$LookupTranslator#LookupTranslator(java.lang.CharSequence[][]):51",
+        "org.apache.commons.lang3.text.translate$LookupTranslator#translate(java.lang.CharSequence,int,java.io.Writer):77"
+    ]
+}

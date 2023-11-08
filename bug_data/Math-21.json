@@ -1,0 +1,24 @@
+{
+    "bug_id": "Math-21",
+    "failing_tests": [
+        "org.apache.commons.math3.random.CorrelatedRandomVectorGeneratorTest#testSampleWithZeroCovariance",
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testMath789",
+        "org.apache.commons.math3.linear.RectangularCholeskyDecompositionTest#testFullRank"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):69",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):79",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):82",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):83",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):84",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):90",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):91",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):92",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):93",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):121",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):122",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):123",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):124",
+        "org.apache.commons.math3.linear$RectangularCholeskyDecomposition#RectangularCholeskyDecomposition(org.apache.commons.math3.linear.RealMatrix,double):128"
+    ]
+}

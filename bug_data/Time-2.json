@@ -1,0 +1,10 @@
+{
+    "bug_id": "Time-2",
+    "failing_tests": [
+        "org.joda.time.TestPartial_Basics#testWith_baseAndArgHaveNoRange"
+    ],
+    "buggy_lines": [
+        "org.joda.time.field$UnsupportedDurationField#compareTo(org.joda.time.DurationField):227",
+        "org.joda.time$Partial#Partial(org.joda.time.DateTimeFieldType[],int[],org.joda.time.Chronology):218"
+    ]
+}

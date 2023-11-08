@@ -1,0 +1,24 @@
+{
+    "bug_id": "Time-3",
+    "failing_tests": [
+        "org.joda.time.TestMutableDateTime_Adds#testAddMonths_int_dstOverlapWinter_addZero",
+        "org.joda.time.TestMutableDateTime_Adds#testAddDays_int_dstOverlapWinter_addZero",
+        "org.joda.time.TestMutableDateTime_Adds#testAddWeeks_int_dstOverlapWinter_addZero",
+        "org.joda.time.TestMutableDateTime_Adds#testAdd_DurationFieldType_int_dstOverlapWinter_addZero",
+        "org.joda.time.TestMutableDateTime_Adds#testAddYears_int_dstOverlapWinter_addZero"
+    ],
+    "buggy_lines": [
+        "org.joda.time$MutableDateTime#add(org.joda.time.DurationFieldType,int):639",
+        "org.joda.time$MutableDateTime#add(org.joda.time.DurationFieldType,int):640",
+        "org.joda.time$MutableDateTime#addYears(int):660",
+        "org.joda.time$MutableDateTime#addYears(int):661",
+        "org.joda.time$MutableDateTime#addMonths(int):702",
+        "org.joda.time$MutableDateTime#addMonths(int):703",
+        "org.joda.time$MutableDateTime#addWeeks(int):723",
+        "org.joda.time$MutableDateTime#addWeeks(int):724",
+        "org.joda.time$MutableDateTime#addDays(int):764",
+        "org.joda.time$MutableDateTime#addDays(int):765",
+        "org.joda.time$MutableDateTime#addHours(int):785",
+        "org.joda.time$MutableDateTime#addHours(int):786"
+    ]
+}

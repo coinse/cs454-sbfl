@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-17",
+    "failing_tests": [
+        "org.apache.commons.math3.dfp.DfpTest#testMultiply"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.dfp$Dfp#multiply(int):1603"
+    ]
+}

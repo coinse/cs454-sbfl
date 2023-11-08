@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-18",
+    "failing_tests": [
+        "org.apache.commons.lang3.time.FastDateFormatTest#testFormat"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.time$FastDateFormat#parsePattern():495",
+        "org.apache.commons.lang3.time$FastDateFormat#parsePattern():496",
+        "org.apache.commons.lang3.time$FastDateFormat#parsePattern():498"
+    ]
+}

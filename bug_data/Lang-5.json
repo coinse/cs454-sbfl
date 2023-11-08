@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-5",
+    "failing_tests": [
+        "org.apache.commons.lang3.LocaleUtilsTest#testLang865"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$LocaleUtils#toLocale(java.lang.String):97"
+    ]
+}

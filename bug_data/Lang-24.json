@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-24",
+    "failing_tests": [
+        "org.apache.commons.lang3.math.NumberUtilsTest#testIsNumber"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.math$NumberUtils#isNumber(java.lang.String):1413"
+    ]
+}

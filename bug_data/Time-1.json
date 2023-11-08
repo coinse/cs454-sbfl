@@ -1,0 +1,12 @@
+{
+    "bug_id": "Time-1",
+    "failing_tests": [
+        "org.joda.time.TestPartial_Constructors#testConstructorEx7_TypeArray_intArray"
+    ],
+    "buggy_lines": [
+        "org.joda.time.field$UnsupportedDurationField#compareTo(org.joda.time.DurationField):227",
+        "org.joda.time.field$UnsupportedDurationField#compareTo(org.joda.time.DurationField):228",
+        "org.joda.time$Partial#Partial(org.joda.time.DateTimeFieldType[],int[],org.joda.time.Chronology):217",
+        "org.joda.time$Partial#Partial(org.joda.time.DateTimeFieldType[],int[],org.joda.time.Chronology):221"
+    ]
+}

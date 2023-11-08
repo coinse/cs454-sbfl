@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-33",
+    "failing_tests": [
+        "org.apache.commons.lang3.ClassUtilsTest#testToClass_object"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$ClassUtils#toClass(java.lang.Object[]):910"
+    ]
+}

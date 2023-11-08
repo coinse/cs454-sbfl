@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-45",
+    "failing_tests": [
+        "org.apache.commons.math.linear.OpenMapRealMatrixTest#testMath679"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.linear$OpenMapRealMatrix#OpenMapRealMatrix(int,int):50"
+    ]
+}

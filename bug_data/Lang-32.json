@@ -1,0 +1,14 @@
+{
+    "bug_id": "Lang-32",
+    "failing_tests": [
+        "org.apache.commons.lang3.builder.HashCodeBuilderTest#testReflectionObjectCycle"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.builder$HashCodeBuilder#<clinit>():104",
+        "org.apache.commons.lang3.builder$HashCodeBuilder#isRegistered(java.lang.Object):152",
+        "org.apache.commons.lang3.builder$HashCodeBuilder#register(java.lang.Object):522",
+        "org.apache.commons.lang3.builder$HashCodeBuilder#unregister(java.lang.Object):538",
+        "org.apache.commons.lang3.builder$HashCodeBuilder#unregister(java.lang.Object):539",
+        "org.apache.commons.lang3.builder$HashCodeBuilder$1#initialValue():107"
+    ]
+}

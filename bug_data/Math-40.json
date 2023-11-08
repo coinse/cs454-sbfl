@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-40",
+    "failing_tests": [
+        "org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolverTest#testIssue716"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.analysis.solvers$BracketingNthOrderBrentSolver#doSolve():235"
+    ]
+}

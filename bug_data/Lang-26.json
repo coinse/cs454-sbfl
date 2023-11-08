@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-26",
+    "failing_tests": [
+        "org.apache.commons.lang3.time.FastDateFormatTest#testLang645"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.time$FastDateFormat#format(java.util.Date):820"
+    ]
+}

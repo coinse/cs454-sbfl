@@ -1,0 +1,15 @@
+{
+    "bug_id": "Chart-2",
+    "failing_tests": [
+        "org.jfree.data.general.junit.DatasetUtilitiesTests#testBug2849731_2",
+        "org.jfree.data.general.junit.DatasetUtilitiesTests#testBug2849731_3"
+    ],
+    "buggy_lines": [
+        "org.jfree.data.general$DatasetUtilities#iterateDomainBounds(org.jfree.data.xy.XYDataset,boolean):755",
+        "org.jfree.data.general$DatasetUtilities#iterateDomainBounds(org.jfree.data.xy.XYDataset,boolean):756",
+        "org.jfree.data.general$DatasetUtilities#iterateDomainBounds(org.jfree.data.xy.XYDataset,boolean):757",
+        "org.jfree.data.general$DatasetUtilities#iterateRangeBounds(org.jfree.data.xy.XYDataset,boolean):1242",
+        "org.jfree.data.general$DatasetUtilities#iterateRangeBounds(org.jfree.data.xy.XYDataset,boolean):1243",
+        "org.jfree.data.general$DatasetUtilities#iterateRangeBounds(org.jfree.data.xy.XYDataset,boolean):1244"
+    ]
+}

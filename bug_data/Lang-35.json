@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-35",
+    "failing_tests": [
+        "org.apache.commons.lang3.ArrayUtilsAddTest#testLANG571"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$ArrayUtils#add(java.lang.Object[],java.lang.Object):3295"
+    ]
+}

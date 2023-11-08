@@ -1,0 +1,9 @@
+{
+    "bug_id": "Time-4",
+    "failing_tests": [
+        "org.joda.time.TestPartial_Basics#testWith3"
+    ],
+    "buggy_lines": [
+        "org.joda.time$Partial#with(org.joda.time.DateTimeFieldType,int):464"
+    ]
+}

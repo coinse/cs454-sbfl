@@ -1,0 +1,16 @@
+{
+    "bug_id": "Math-47",
+    "failing_tests": [
+        "org.apache.commons.math.complex.ComplexTest#testAtanI",
+        "org.apache.commons.math.complex.ComplexTest#testDivideZero"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.complex$Complex#Complex(double,double):99",
+        "org.apache.commons.math.complex$Complex#Complex(double,double):100",
+        "org.apache.commons.math.complex$Complex#Complex(double,double):102",
+        "org.apache.commons.math.complex$Complex#Complex(double,double):103",
+        "org.apache.commons.math.complex$Complex#Complex(double,double):105",
+        "org.apache.commons.math.complex$Complex#divide(org.apache.commons.math.complex.Complex):256",
+        "org.apache.commons.math.complex$Complex#divide(org.apache.commons.math.complex.Complex):257"
+    ]
+}

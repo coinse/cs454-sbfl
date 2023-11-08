@@ -1,0 +1,16 @@
+{
+    "bug_id": "Math-43",
+    "failing_tests": [
+        "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideMeanWithMathClass",
+        "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideGeoMeanWithMathClass",
+        "org.apache.commons.math.stat.descriptive.SummaryStatisticsTest#testOverrideVarianceWithMathClass",
+        "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideMeanWithMathClass",
+        "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideGeoMeanWithMathClass",
+        "org.apache.commons.math.stat.descriptive.SynchronizedSummaryStatisticsTest#testOverrideVarianceWithMathClass"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.stat.descriptive$SummaryStatistics#addValue(double):158",
+        "org.apache.commons.math.stat.descriptive$SummaryStatistics#addValue(double):161",
+        "org.apache.commons.math.stat.descriptive$SummaryStatistics#addValue(double):164"
+    ]
+}

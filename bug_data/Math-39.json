@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-39",
+    "failing_tests": [
+        "org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest#testTooLargeFirstStep"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.ode.nonstiff$EmbeddedRungeKuttaIntegrator#integrate(org.apache.commons.math.ode.ExpandableStatefulODE,double):252"
+    ]
+}

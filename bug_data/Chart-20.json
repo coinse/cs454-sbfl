@@ -1,0 +1,9 @@
+{
+    "bug_id": "Chart-20",
+    "failing_tests": [
+        "org.jfree.chart.plot.junit.ValueMarkerTests#test1808376"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.plot$ValueMarker#ValueMarker(double,java.awt.Paint,java.awt.Stroke,java.awt.Paint,java.awt.Stroke,float):95"
+    ]
+}

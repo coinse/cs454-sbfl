@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-11",
+    "failing_tests": [
+        "org.apache.commons.math3.distribution.MultivariateNormalDistributionTest#testUnivariateDistribution"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.distribution$MultivariateNormalDistribution#density(double[]):183"
+    ]
+}

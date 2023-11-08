@@ -1,0 +1,13 @@
+{
+    "bug_id": "Lang-15",
+    "failing_tests": [
+        "org.apache.commons.lang3.reflect.TypeUtilsTest#testGetTypeArguments",
+        "org.apache.commons.lang3.reflect.TypeUtilsTest#testIsAssignable"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.reflect$TypeUtils#isAssignable(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map):219",
+        "org.apache.commons.lang3.reflect$TypeUtils#isAssignable(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map):220",
+        "org.apache.commons.lang3.reflect$TypeUtils#isAssignable(java.lang.reflect.Type,java.lang.reflect.ParameterizedType,java.util.Map):221",
+        "org.apache.commons.lang3.reflect$TypeUtils#getTypeArguments(java.lang.Class,java.lang.Class,java.util.Map):675"
+    ]
+}

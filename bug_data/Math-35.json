@@ -1,0 +1,13 @@
+{
+    "bug_id": "Math-35",
+    "failing_tests": [
+        "org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooLow",
+        "org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooHigh",
+        "org.apache.commons.math3.genetics.ElitisticListPopulationTest#testConstructorTooLow",
+        "org.apache.commons.math3.genetics.ElitisticListPopulationTest#testChromosomeListConstructorTooHigh"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.genetics$ElitisticListPopulation#ElitisticListPopulation(java.util.List,int,double):51",
+        "org.apache.commons.math3.genetics$ElitisticListPopulation#ElitisticListPopulation(int,double):65"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "bug_id": "Math-18",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.direct.CMAESOptimizerTest#testFitAccuracyDependsOnBoundary"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.direct$CMAESOptimizer$FitnessFunction#encode(double[]):932",
+        "org.apache.commons.math3.optimization.direct$CMAESOptimizer$FitnessFunction#decode(double[]):958"
+    ]
+}

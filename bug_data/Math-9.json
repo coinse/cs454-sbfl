@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-9",
+    "failing_tests": [
+        "org.apache.commons.math3.geometry.euclidean.threed.LineTest#testRevert"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.geometry.euclidean.threed$Line#revert():87"
+    ]
+}

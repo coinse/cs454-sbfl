@@ -1,0 +1,11 @@
+{
+    "bug_id": "Math-38",
+    "failing_tests": [
+        "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest#testConstrainedRosenWithMoreInterpolationPoints"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.optimization.direct$BOBYQAOptimizer#prelim(double[],double[]):1662",
+        "org.apache.commons.math.optimization.direct$BOBYQAOptimizer#prelim(double[],double[]):1663",
+        "org.apache.commons.math.optimization.direct$BOBYQAOptimizer#prelim(double[],double[]):1752"
+    ]
+}

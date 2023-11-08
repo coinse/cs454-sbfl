@@ -1,0 +1,11 @@
+{
+    "bug_id": "Chart-19",
+    "failing_tests": [
+        "org.jfree.chart.plot.junit.CategoryPlotTests#testGetRangeAxisIndex",
+        "org.jfree.chart.plot.junit.CategoryPlotTests#testGetDomainAxisIndex"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.plot$CategoryPlot#getDomainAxisIndex(org.jfree.chart.axis.CategoryAxis):698",
+        "org.jfree.chart.plot$CategoryPlot#getRangeAxisIndex(org.jfree.chart.axis.ValueAxis):973"
+    ]
+}

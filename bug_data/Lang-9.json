@@ -1,0 +1,10 @@
+{
+    "bug_id": "Lang-9",
+    "failing_tests": [
+        "org.apache.commons.lang3.time.FastDateFormat_ParserTest#testLANG_832",
+        "org.apache.commons.lang3.time.FastDateParserTest#testLANG_832"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.time$FastDateParser#init():144"
+    ]
+}

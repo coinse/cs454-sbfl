@@ -1,0 +1,10 @@
+{
+    "bug_id": "Chart-7",
+    "failing_tests": [
+        "org.jfree.data.time.junit.TimePeriodValuesTests#testGetMaxMiddleIndex"
+    ],
+    "buggy_lines": [
+        "org.jfree.data.time$TimePeriodValues#updateBounds(org.jfree.data.time.TimePeriod,int):300",
+        "org.jfree.data.time$TimePeriodValues#updateBounds(org.jfree.data.time.TimePeriod,int):302"
+    ]
+}

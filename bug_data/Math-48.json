@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-48",
+    "failing_tests": [
+        "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest#testIssue631"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.analysis.solvers$BaseSecantSolver#doSolve():189"
+    ]
+}

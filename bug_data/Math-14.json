@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-14",
+    "failing_tests": [
+        "org.apache.commons.math3.fitting.PolynomialFitterTest#testLargeSample"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optim.nonlinear.vector$Weight#Weight(double[]):43"
+    ]
+}

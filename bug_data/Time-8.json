@@ -1,0 +1,10 @@
+{
+    "bug_id": "Time-8",
+    "failing_tests": [
+        "org.joda.time.TestDateTimeZone#testForOffsetHoursMinutes_int_int"
+    ],
+    "buggy_lines": [
+        "org.joda.time$DateTimeZone#forOffsetHoursMinutes(int,int):279",
+        "org.joda.time$DateTimeZone#forOffsetHoursMinutes(int,int):282"
+    ]
+}

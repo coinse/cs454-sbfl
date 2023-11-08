@@ -1,0 +1,11 @@
+{
+    "bug_id": "Time-11",
+    "failing_tests": [
+        "org.joda.time.tz.TestCompiler#testDateTimeZoneBuilder"
+    ],
+    "buggy_lines": [
+        "org.joda.time.tz$ZoneInfoCompiler#<clinit>():68",
+        "org.joda.time.tz$ZoneInfoCompiler#<clinit>():70",
+        "org.joda.time.tz$ZoneInfoCompiler#<clinit>():71"
+    ]
+}

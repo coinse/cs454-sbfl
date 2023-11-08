@@ -1,0 +1,11 @@
+{
+    "bug_id": "Lang-13",
+    "failing_tests": [
+        "org.apache.commons.lang3.SerializationUtilsTest#testPrimitiveTypeClassSerialization"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3$SerializationUtils$ClassLoaderAwareObjectInputStream#SerializationUtils$ClassLoaderAwareObjectInputStream(java.io.InputStream,java.lang.ClassLoader):250",
+        "org.apache.commons.lang3$SerializationUtils$ClassLoaderAwareObjectInputStream#SerializationUtils$ClassLoaderAwareObjectInputStream(java.io.InputStream,java.lang.ClassLoader):252",
+        "org.apache.commons.lang3$SerializationUtils$ClassLoaderAwareObjectInputStream#resolveClass(java.io.ObjectStreamClass):268"
+    ]
+}

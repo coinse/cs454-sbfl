@@ -1,0 +1,23 @@
+{
+    "bug_id": "Math-31",
+    "failing_tests": [
+        "org.apache.commons.math3.distribution.BinomialDistributionTest#testMath718",
+        "org.apache.commons.math3.distribution.FDistributionTest#testMath785"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):134",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):135",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):143",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):144",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):145",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):169",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):170",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):185",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):186",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):187",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):188",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):189",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):190",
+        "org.apache.commons.math3.util$ContinuedFraction#evaluate(double,double,int):191"
+    ]
+}

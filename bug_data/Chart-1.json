@@ -1,0 +1,9 @@
+{
+    "bug_id": "Chart-1",
+    "failing_tests": [
+        "org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests#test2947660"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.renderer.category$AbstractCategoryItemRenderer#getLegendItems():1797"
+    ]
+}

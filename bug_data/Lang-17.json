@@ -1,0 +1,12 @@
+{
+    "bug_id": "Lang-17",
+    "failing_tests": [
+        "org.apache.commons.lang3.StringEscapeUtilsTest#testLang720"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang3.text.translate$CharSequenceTranslator#translate(java.lang.CharSequence,java.io.Writer):83",
+        "org.apache.commons.lang3.text.translate$CharSequenceTranslator#translate(java.lang.CharSequence,java.io.Writer):88",
+        "org.apache.commons.lang3.text.translate$CharSequenceTranslator#translate(java.lang.CharSequence,java.io.Writer):89",
+        "org.apache.commons.lang3.text.translate$CharSequenceTranslator#translate(java.lang.CharSequence,java.io.Writer):102"
+    ]
+}

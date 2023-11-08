@@ -1,0 +1,10 @@
+{
+    "bug_id": "Math-28",
+    "failing_tests": [
+        "org.apache.commons.math3.optimization.linear.SimplexSolverTest#testMath828Cycle"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.optimization.linear$SimplexSolver#getPivotRow(org.apache.commons.math3.optimization.linear.SimplexTableau,int):119",
+        "org.apache.commons.math3.optimization.linear$SimplexSolver#getPivotRow(org.apache.commons.math3.optimization.linear.SimplexTableau,int):138"
+    ]
+}

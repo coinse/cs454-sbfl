@@ -1,0 +1,10 @@
+{
+    "bug_id": "Math-44",
+    "failing_tests": [
+        "org.apache.commons.math.ode.events.EventStateTest#testIssue695"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math.ode$AbstractIntegrator#acceptStep(org.apache.commons.math.ode.sampling.AbstractStepInterpolator,double[],double[],double):280",
+        "org.apache.commons.math.ode$AbstractIntegrator#acceptStep(org.apache.commons.math.ode.sampling.AbstractStepInterpolator,double[],double[],double):343"
+    ]
+}

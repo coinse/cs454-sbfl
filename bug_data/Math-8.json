@@ -1,0 +1,9 @@
+{
+    "bug_id": "Math-8",
+    "failing_tests": [
+        "org.apache.commons.math3.distribution.DiscreteRealDistributionTest#testIssue942"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.math3.distribution$DiscreteDistribution#sample(int):187"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "bug_id": "Time-18",
+    "failing_tests": [
+        "org.joda.time.TestPeriodType#testForFields4",
+        "org.joda.time.chrono.TestGJChronology#testLeapYearRulesConstruction"
+    ],
+    "buggy_lines": [
+        "org.joda.time.chrono$GJChronology#getDateTimeMillis(int,int,int,int,int,int,int):364"
+    ]
+}

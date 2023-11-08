@@ -1,0 +1,10 @@
+{
+    "bug_id": "Chart-6",
+    "failing_tests": [
+        "org.jfree.chart.util.junit.ShapeListTests#testSerialization",
+        "org.jfree.chart.util.junit.ShapeListTests#testEquals"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.util$ShapeList#equals(java.lang.Object):111"
+    ]
+}

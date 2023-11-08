@@ -1,0 +1,15 @@
+{
+    "bug_id": "Chart-14",
+    "failing_tests": [
+        "org.jfree.chart.plot.junit.XYPlotTests#testRemoveRangeMarker",
+        "org.jfree.chart.plot.junit.XYPlotTests#testRemoveDomainMarker",
+        "org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveRangeMarker",
+        "org.jfree.chart.plot.junit.CategoryPlotTests#testRemoveDomainMarker"
+    ],
+    "buggy_lines": [
+        "org.jfree.chart.plot$XYPlot#removeDomainMarker(int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean):2293",
+        "org.jfree.chart.plot$XYPlot#removeRangeMarker(int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean):2529",
+        "org.jfree.chart.plot$CategoryPlot#removeDomainMarker(int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean):2166",
+        "org.jfree.chart.plot$CategoryPlot#removeRangeMarker(int,org.jfree.chart.plot.Marker,org.jfree.chart.util.Layer,boolean):2448"
+    ]
+}
