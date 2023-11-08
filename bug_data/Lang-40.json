@@ -1,0 +1,9 @@
+{
+    "bug_id": "Lang-40",
+    "failing_tests": [
+        "org.apache.commons.lang.StringUtilsEqualsIndexOfTest#testContainsIgnoreCase_LocaleIndependence"
+    ],
+    "buggy_lines": [
+        "org.apache.commons.lang$StringUtils#containsIgnoreCase(java.lang.String,java.lang.String):1048"
+    ]
+}
