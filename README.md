@@ -1,4 +1,4 @@
-# CS454 Genetic Programming for SBFL
+# CS454 Assignment 3: Genetic Programming for SBFL
 
 Automated debugging and, in particular, fault localisation is a technique that aims to tell developer where the source of the observed failure is. In other words, if you provide test results as well as other inputs, the technique will tell you where the buggy line/method/class/file is. The aim of the second coursework is to implement a learning mechanism for automated debugging.
 
@@ -17,6 +17,16 @@ You will be given raw coverage data collected from [Defects4J](https://github.co
 ## Genetic Programming
 
 Implement your own GP engine, and use it to find a suitable SBFL formula that ranks the faulty program element as high as possible. You are free to choose the non-terminal operators yourself. Typically SBFL formulas use the basic arithmetic operators: addition, subtraction, multiplication, and division, but feel free to expand the set if you think it helps. The aim is to lower the rank of the faulty program element as much as possible, for as many bugs as possible.
+
+Note that, for division, you have to use the following _safe_ definition:
+
+```
+def div(x, y): # divide x with y
+	if y == 0:
+		return 1
+	else:
+		return x / y
+```
 
 ## Evaluation
 
