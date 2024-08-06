@@ -52,3 +52,9 @@ In addition to your implementation, please include a PDF of your report. It shou
 - A brief description of your approach: how you implement the GP engine, any unique features, etc
 - The same best formula you have evolved (use the variable names 'ep', 'ef', 'np', and 'nf' to denote the formula): try to describe why it works well :)
 - The evaluation results of your best formula against the bugs included in the repo: compute acc@1 against the 119 included bugs, andd also report the average wef metric per project (i.e., `Math`, `Lang`, `Time`, and `Chart`).
+
+## A Few Hints
+
+- The ranking is at the method level. That is, for acc@1, you need to rank the method which contains the bug at the top. Given that the program spectrum is at the statement level, you need to aggregate the statement level scores into scores of methods. There can be different ways to aggreate the statement level scores, but a simple one is the max aggregation, i.e., the score of a method is the maximum score from the statements that belong to that method.
+- Some bugs exists in more than a single method. In such cases, you can use the higher ranking method for your evaluation.
+- GP is a way to evolve formulas: it is time consuming. Do not call your genetic programming routine from `best.py`: hardcode the formula you found using GP in `best.py` under `def sbfl(ep, ef, np, nf)`.
