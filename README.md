@@ -18,7 +18,7 @@ You will be given raw coverage data collected from [Defects4J](https://github.co
 
 Implement your own GP engine, and use it to find a suitable SBFL formula that ranks the faulty program element as high as possible. You are free to choose the non-terminal operators yourself. Typically SBFL formulas use the basic arithmetic operators: addition, subtraction, multiplication, and division, but feel free to expand the set if you think it helps. The aim is to lower the rank of the faulty program element as much as possible, for as many bugs as possible.
 
-Note that, for division, you have to use the following _safe_ definition:
+Note that, for division, you *have to* use the following _safe_ definition:
 
 ```
 def div(x, y): # divide x with y
@@ -53,8 +53,10 @@ In addition to your implementation, please include a PDF of your report. It shou
 - The same best formula you have evolved (use the variable names 'ep', 'ef', 'np', and 'nf' to denote the formula): try to describe why it works well :)
 - The evaluation results of your best formula against the bugs included in the repo: compute acc@1 against the 119 included bugs, andd also report the average wef metric per project (i.e., `Math`, `Lang`, `Time`, and `Chart`).
 
-## A Few Hints
+## Things to remember
 
-- The ranking is at the method level. That is, for acc@1, you need to rank the method which contains the bug at the top. Given that the program spectrum is at the statement level, you need to aggregate the statement level scores into scores of methods. There can be different ways to aggreate the statement level scores, but a simple one is the max aggregation, i.e., the score of a method is the maximum score from the statements that belong to that method.
+- The ranking is at the method level. That is, for acc@1, you need to rank the method which contains the bug at the top. Given that the available spectrum data here is at the statement level, you need to aggregate the statement level scores into scores of methods. There can be different ways to aggreate the statement level scores, but a simple one is the max aggregation, i.e., the score of a method is the maximum score from the statements that belong to that method.
 - Some bugs exists in more than a single method. In such cases, you can use the higher ranking method for your evaluation.
-- GP is a way to evolve formulas: it is time consuming. Do not call your genetic programming routine from `best.py`: hardcode the formula you found using GP in `best.py` under `def sbfl(ep, ef, np, nf)`.
+- GP is a way to evolve formulas: it is time consuming. Do not call your genetic programming routine from `best.py`: hardcode the formula you found using GP in `best.py` under `def sbfl(ep, ef, np, nf)`. **Ensure that the arguments are `int`, not numpy arrays.** This also means that you cannot depend on numpy.divide for safe division.
+- Submit your GP code as a separate Python file: do not implement everything within the Jupyter notebook.
+- The grading will be based on a hidden dataset. The bugs in the hidden dataset are still from the same projects, so there should not be any dramatic difference in their spectrum.
